@@ -1,0 +1,37 @@
+{
+  "customer": {
+    "document_type": "CC",
+    "document_number": "123456789",
+    "first_name": "Juan",
+    "last_name": "Perez",
+    "birth_date": "1985-06-15",
+    "phone": "3001234567",
+    "email": "juan.perez@example.com"
+  },
+  "credit_request": {
+    "amount_requested": 5000000,
+    "term_months": 24,
+    "interest_rate": 12.5,
+    "credit_purpose": "Compra de vehículo",
+    "collateral": "Vehículo usado"
+  },
+  "credit_info": {
+    "experian_score": 75.0,
+    "transunion_score": 70.0,
+    "active_obligations": 2,
+    "total_debt": 1500000,
+    "payment_history": "Good",
+    "recent_inquiries": 1
+  },
+  "socioeconomic_info": {
+    "monthly_income": 3500000,
+    "occupation": "Ingeniero",
+    "economic_sector": "Tecnología",
+    "employment_duration_years": 5,
+    "education_level": "Universitario",
+    "marital_status": "Casado",
+    "dependents": 2,
+    "housing_type": "Propia"
+  },
+  "evaluation_params": {}
+}
